@@ -1,0 +1,70 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-right
+  x = -113
+  width = 117
+  actionid = e6e1c4ba-caa1-44bf-8520-fbb96d61211d1629729287194
+  action = addtexture
+  y = -123
+  height = 165
+}
+
+customization {
+  showname = false
+  orientation = mid-right
+  crouching = false
+  x = -95
+  slim = false
+  actionid = b09fcc63-01f6-4f5f-8e01-7560bbb286821629729304566
+  action = addentity
+  y = -25
+  scale = 30
+  playername = TristanPoland
+  parrot = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -80
+  actionid = be4171bc-62d0-4fa9-8792-59216d7c043d1629729343930
+  action = addtext
+  y = -121
+  scale = 1.0
+  alignment = left
+  value = Developer
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -76
+  actionid = d397259f-d420-4cd9-b79a-6cc19f48e2291629729713183
+  action = addtext
+  y = -59
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  path = resources/title.png
+  orientation = top-centered
+  x = -166
+  width = 333
+  actionid = 5b1c8e4e-fc79-45d2-9be3-986bd29ad7a31629729855438
+  action = addtexture
+  y = 19
+  height = 74
+}
+
